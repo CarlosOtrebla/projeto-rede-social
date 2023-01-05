@@ -29,11 +29,20 @@ main {
 
 section#telefone {
     background-color: blue;
+    background: url(imagens/frame-iphone.png) no-repeat;
     height: 627px;
     left: 50%;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
     width:  311px;
-    background: url(imagens/frame-iphone.png);
+}
+
+iframe#tela {
+    height: 472px;
+    left: 22px;
+    position: relative;
+    top: 80px;
+    width: 268px;
+    
 }
